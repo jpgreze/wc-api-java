@@ -5,31 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jpgreze</groupId>
-    <artifactId>wc-api-java</artifactId>
+    <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <name>WooCommerce API Java Parent Project</name>
+    <name>Parent Project</name>
 
     <modules>
         <module>api</module>
     </modules>
-
-<!--
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
--->
 
     <dependencies>
         <dependency>
